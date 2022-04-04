@@ -12,23 +12,27 @@
 <body>
     <div class="container">
         <div class="caja1">
-            <div class="logo"></div><img src="./img/logo.svg" alt="logo Facebook">
+            <img class="logo" src="./img/logo.svg" alt="logo Facebook">
             <h2>Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h2>
         </div>
         <div class="caja2">
-            <form class="datos">
-                <input type="text" placeholder="Correo electrónico o número de teléfono">
-                <input type="password" placeholder="Contraseña">
-                <input type="submit" value="Iniciar sesión">
-
-                <a href="https://es-la.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">¿Olvidaste
-                    tu contraseña?</a>
-                <a href="https://es-la.facebook.com/register"><input type="button" value="Crear cuenta nueva"></a>
-            </form>
+            <div class="usuario">
+                <form class="datos">
+                    <input class="formulario" type="text" placeholder="Correo electrónico o número de teléfono"
+                        autofocus>
+                    <input class="formulario" type="password" placeholder="Contraseña">
+                    <input class="iniciar" type="submit" value="Iniciar sesión">
+                    <a class="contraseña"
+                        href="https://es-la.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">¿Olvidaste
+                        tu contraseña?</a>
+                    <a class="marginboton" href="https://es-la.facebook.com/register"><input class="nuevaCuenta"
+                            type="button" value="Crear cuenta nueva"></a>
+                </form>
+            </div>
             <div>
 
-                <p><a href="https://es-la.facebook.com/pages/create/?ref_type=registration_form"></a> Crea una
-                    página</a> para una celebridad, una marca o un negocio.</p>
+                <p><a href="https://es-la.facebook.com/pages/create/?ref_type=registration_form"> Crea una
+                        página</a> para una celebridad, una marca o un negocio.</p>
             </div>
         </div>
     </div>
